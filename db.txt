@@ -18,3 +18,27 @@
 
 //quit postgres
 	\q
+
+///////////////////////////
+//////// Graphiql /////////
+///////////////////////////
+
+// see all users
+{
+	users {
+		name
+		email
+		bio
+		numberOfPets
+	}
+}
+
+// add new users
+mutation {
+  registerUser(input: {name: "JJ Choon", email: "joejen2000@gmail.com", bio: "I am studying at UCLA"}){
+  	name
+    email
+    bio
+    numberOfPets
+  }
+} 
