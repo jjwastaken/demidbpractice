@@ -1,0 +1,20 @@
+//start postgres database
+	psql -U postgres
+
+//list the database in your system
+	\l
+
+//connect to db database
+	\c db
+
+//show data table(schemas)
+	\d
+
+//select specific table
+	SELECT * FROM users;
+
+//start server
+	mix phx.server
+
+//quit postgres
+	\q
