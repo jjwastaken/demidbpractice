@@ -11,7 +11,7 @@
 	\d
 
 //select specific table
-	SELECT * FROM users;
+	SELECT * FROM users; (semi-colon important!!!)
 
 //start server
 	mix phx.server
